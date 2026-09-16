@@ -30,7 +30,7 @@ dashmap = { workspace = true }
 futures = { workspace = true }
 
 # MCP SDK for stdio transport
-rmcp = { version = "0.2.1", features = ["server", "transport-io"] }
+rmcp = { version = "3.4.0", features = ["server", "transport-io"] }
 
 # MCP specific dependencies (WebSocket)
 axum = { version = "0.7", features = ["ws", "json"] }
